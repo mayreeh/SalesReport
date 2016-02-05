@@ -1,0 +1,149 @@
+
+@import url("http://fonts.googleapis.com/css?family=Raleway:400italic,600italic,400,600");
+
+/*------------------------------------------------------------------
+[1. Global]
+*/
+
+body {
+	font: 13px/1.7em 'Raleway';
+    padding-top: 65px;
+}
+    
+p { 
+	font: 13px/1.7em 'Raleway'; 	
+}
+    
+input,
+button,
+select,
+textarea {
+  font-family: 'Raleway';
+}
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-inverse {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.icon-lg {
+    font-size:100px;
+}
+
+.custom-form {
+    border: 1px solid #c0c0c0;
+    padding:20px;
+    background: #ffffff;
+    opacity: 0.9;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.form-message {
+    padding: 10px;
+}
+
+.error-message {
+    color: #aa0000;
+}
+.icon-small {
+    font-size:20px;
+    margin-top:5px;
+}
+.full {
+    background: url('../img/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.menu-item {
+    padding:15px;
+    margin:15px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
+.menu-item .fa {
+    font-size:30px;
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+    border-radius: 50px;
+}
+.menu-item ul>li>a .fa {
+    font-size:10px;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.bg-primary ul>li>a {
+    color: #ffffff;
+}
+
+.bg-notice {
+    background: #e59e66;
+}
+
+.brand-title {
+    background: #111111;
+    color: #ffff00;
+    padding:5px;
+    font-weight: 700;
+}
+.menu-left {
+
+    border-right: 1px solid #c0c0c0;
+}
+.menu-left ul>li>a .fa {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu-left ul>li>a {
+    color: #111111;
+    font-weight: 700;
+}
+
+.menu-item h4, h5 {
+    font-weight: 700;
+}
+
+.menu-item ul>li>a {
+    font-weight: 700;
+}
+.wait-dialog {
+    width: 100px;
+}
+.wait-dialog .modal-body {
+    padding:3px;
+}
+.modal{
+    height: 90%;
+}
+.modal .modal-dialog{
+    margin: auto;
+}
+.modal p {
+    margin: 0px;
+}
+
+.table>tbody>tr>th {
+    background: #337ab7;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+}
